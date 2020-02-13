@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>SITENAME v0.0.4</title>
+  </head>
+  <body>
+     <header>
+        <section class="header-bg">
+           <div class="logo">SITENAME</div>
+           <div class="logo-separator"></div>
+           <ul class="social-media-icons">
+              <li class="sn-icon sn-digg"></li>
+              <li class="sn-icon sn-mail"></li>
+              <li class="sn-icon sn-flickr"></li>
+              <li class="sn-icon sn-call"></li>
+           </ul>
+        </section>
+        <section class="navigation-menu">
+          <nav>
+            <ul class="top-menu">
+              <li class="top-menu-item"><a href="#">HOME</a></li>
+              <li class="top-menu-item"><a href="#">ABOUT</a></li>
+              <li class="top-menu-item"><a href="#">PORTFOLIO</a></li>
+              <li class="top-menu-item"><a href="#">BLOG</a></li>
+              <li class="top-menu-item"><a href="#">CONTACT</a></li>
+            </ul>
+          </nav>
+           <p class="search-lable">SEARCH</p>
+           <form action="#" method="post" id="search">
+              <input type="text"  value=""
+              onblur="if(this.value=='') this.value='';"
+              onfocus="if(this.value=='') this.value='';"
+              class="input" />
+              <input type="submit" value="" class="submit" />
+           </form>
+        </section>
+     </header>
+     <section class="bg-top">
+       <section class="welcome">
+          <h2 class="welcome-header">WELCOME TO OUR SITE</h2>
+          <p class="welcome-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla vitae
+          accumsan feugiat, odio nisi tristique odio, sit amet dictum quam augue vel urna.
+          Proin eleifend, erat eu rhoncus suscipit, nisl velit pharetra leo</p>
+          <button class="welcome-button learn-more-button">
+            <span class="button-text">LEARN MORE</span>
+          </button>
+          <button class="welcome-button our-work-button">
+            <span class="button-text">OUR WORK</span>
+          </button>
+          <figure class="main-preview-image">
+             <div class="welcome-main-img"></div>
+             <div class="welcome-main-shadow"></div>
+          </figure>
+          <figure class="sec-preview-image">
+            <div class="welcome-sec-img"></div>
+            <div class="welcome-sec-shadow"></div>
+          </figure>
+       </section>
+       <section class="if-youre-here">
+         <p class="youre-here-text">You're here: Home > Welcome...</p>
+         <div class="arrow"></div>
+       </section>
+     </section>
+     <section class="up-screen-separator"></section>
+     <section class="bg-middle">
+        <section class="from-the-blog">
+          <h2 class="ftb-header">FROM THE BLOG</h2>
+          <ul class="blog-posts">
+             <li class="blog-post">
+               <h3 class="blog-header">Blog Post Name Here</h3>
+               <p class="blog-subheader">October 15th 2010 | 7 comments</p>
+               <figure class="blog-picture">
+                 <div class="bp-img bp-image-map"></div>
+               </figure>
+               <p class="blog-text-start">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Donec feugiat, nulla vitae accumsan feugiat, odio nisi
+               tristique odio, sit amet dictum quam augue vel urna.
+               Proin eleifend, erat eu rhoncus suscipit, nisl velit
+               pharetra leo
+               <a class="cont-reading-link" href="#">Continue Reading...</a></p>
+             </li>
+             <li class="blog-post">
+               <h3 class="blog-header">Blog Post Name Here</h3>
+               <p class="blog-subheader"> October 15th 2010 | 7 comments</p>
+               <figure class="blog-picture">
+                 <div class="bp-img bp-image-beardroids"></div>
+               </figure>
+               <p class="blog-text-start">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Donec feugiat, nulla vitae accumsan feugiat, odio nisi
+               tristique odio, sit amet dictum quam augue vel urna.
+               Proin eleifend, erat eu rhoncus suscipit, nisl velit
+               pharetra leo
+               <a class="cont-reading-link" href="#">Continue Reading...</a></p>
+             </li>
+          </ul>
+          <button class="the-blog-button">
+            <span class="the-blog-button-text">THE BLOG</span>
+          </button>
+        </section>
+        <aside class="side-bar">
+          <section class="side-bar-grid">
+            <article class="comments-categories">
+              <ul class="tab-headers">
+                <li class="tab-header">Comments</li>
+                <li class="tab-header">Categories</li>
+                <li class="tab-header">Archives</li>
+              </ul>
+              <ul class="tab-comments-list">
+                <li class="tab-comment"> Lorem ipsum dolor sit amet,
+                  consectetur accumsan feugiat!</li>
+                <li class="tab-comment-delim"></li>
+                <li class="tab-comment"> Lorem ipsum dolor sit amet,
+                  consectetur accumsan feugiat!</li>
+              </ul>
+            </article>
+            <article class="who-we-are">
+              <h2 class="ftb-header ftb-h2">WHO WE ARE</h2>
+              <figure class="who-we-are-frame">
+                <div class="who-we-are-pic"></div>
+              </figure>
+              <p class="who-we-are-text">
+                Lorem ipsum dolor sit amet, consectetur
+                accumsan feugiat...
+                <a class="cont-reading-link" href="#">Read More!</a>
+              </p>
+            </article>
+            <article class="sponsors">
+              <h2 class="ftb-header sponsors-h2">SPONSORS</h2>
+              <ul class="sponsors-list">
+                <li class="sponsor-icon s-icon-nike"></li>
+                <li class="sponsor-delim"></li>
+                <li class="sponsor-icon s-icon-adidas"></li>
+              </ul>
+            </article>
+        </section>
+        </aside>
+      </section>
+      <section class="bg-bottom">
+        <div class="bg-bottom-top-line"></div>
+          <ul class="bf-list">
+            <li class="bf-item">
+              <h2 class="bf-h2">GET A FREE QUOTE</h2>
+              <form action="#" class="free-quote">
+                      <input type="text" class="q-name" placeholder="   Your name">
+                      <input type="text" class="q-last-name" placeholder="   Last Name">
+                      <textarea class="q-bla" placeholder="   Bla Bla Bla.."></textarea>
+                      <input type="text" class="q-e-mail" placeholder="   Your E-mail address">
+                      <input type="button" class="q-form-button b-button button-text" value="SUBMIT">
+                  </form>
+            </li>
+            <li class="bf-item">
+              <h2 class="bf-h2">OUR RECENT PROJECTS</h2>
+              <ul class="portfolio">
+                <li class="port-item"><figure class="p-item p-sunset"></figure></li>
+                <li class="port-item"><figure class="p-item p-chocolate"></figure></li>
+                <li class="port-item"><figure class="p-item p-colortank"></figure></li>
+                <li class="port-item"><figure class="p-item p-crazyhand"></figure></li>
+              </ul>
+              <form action="#" class="port-form">
+                <input type="button" class="q-form-button b-button button-text" value="PORTFOLIO" id="portfolio-button">
+              </form>
+            </li>
+            <li class="bf-item">
+              <h2 class="bf-h2">TWITTER STREAM</h2>
+              <ul class="twits-list">
+                <li class="twit"> Lorem ipsum dolor sit amet,
+                  consectetur accumsan feugiat!
+                  <a class="cont-reading-link" href="#">4 Minutes Ago..</a>
+                </li>
+                <li class="twit"> Lorem ipsum dolor sit amet,
+                  consectetur accumsan feugiat!
+                  <a class="cont-reading-link" href="#">4 Minutes Ago..</a>
+                </li>
+                <li class="twit"> Lorem ipsum dolor sit amet,
+                  consectetur accumsan feugiat!
+                  <a class="cont-reading-link" href="#">4 Minutes Ago..</a>
+                </li>
+              </ul>
+              <form action="#" class="port-form">
+                <input type="button" class="q-form-button b-button button-text" id="followus" value="FOLLOW US">
+              </form>
+            </li>
+         </ul>
+     </section>
+     <footer class="small-footer">
+       <p class="copyright-message">All Copyrights Reserved | 2010 | WebsiteName</p>
+       <ul class="bottom-menu">
+         <li class="bm-item"><a href="#">Home</a></li>
+         <li class="bm-delim">|</li>
+         <li class="bm-item"><a href="#">About</a></li>
+         <li class="bm-delim">|</li>
+         <li class="bm-item"><a href="#">Portfolio</a></li>
+         <li class="bm-delim">|</li>
+         <li class="bm-item"><a href="#">Blog</a></li>
+         <li class="bm-delim">|</li>
+         <li class="bm-item"><a href="#">Contact</a></li>
+       </ul>
+     </footer>
+  </body>
+</html>
+up-screen-separator
